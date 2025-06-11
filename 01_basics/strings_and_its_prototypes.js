@@ -169,3 +169,34 @@ text = "I love cats. Cats are very easy to love. Cats are very popular."
 
 console.log(text.split(" "))// this will split everytime where there is a space in sentence and put them in an array.
 
+/*
+Summary:
+    methods to return specific part of string:
+        1.at(index)//same as charat but support -ve index
+        2.charAt(index)// old don't support -ve
+        3.charCodeAt(index)// return ascii code
+        4.string[index]// select using index
+    extracting specific part of string:
+        1.slice(start, end)end not included
+        2.substring(start, end)-ve not supported
+        3.substr(start, length)removed in latest update
+    convert to upper or lower case
+        1.toUpperCase();
+        2.toLowerCase();
+    to concat
+        1.first.concat("occurence", second);
+    to trim whitespaces
+        1.trim()remove whitespace from both ends
+        2.trimStart()remove from start
+        3.trimEnd()remove from end
+    padding(add any letter repeatedly to string)
+        1.padStart("whattoadd", maxlengthofstring);
+        2.padEnd("whattoadd", maxlengthofstring);
+    repeat any string
+        1.repeat(howmanytimes)
+    replace string
+        1.replace("what", "towhat")
+        2.replaceAll("what", "towhat")
+    convert to array
+        1.split("fromwheretospli(fromspacesorcommas)")
+*/
