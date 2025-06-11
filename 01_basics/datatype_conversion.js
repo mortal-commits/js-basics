@@ -36,3 +36,4 @@ console.log(typeof boolNumber);
 // ****To String****
 
 // 33 => "33" will convert correct
+
