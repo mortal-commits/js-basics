@@ -71,9 +71,5 @@ function sayHello2(user){
 // giving default values
 
 function sayHello3(user = "sam"){//"sam" here is default value
-    if(user === undefined){
-        console.log("please enter a user.");
-        return;
-    }
     return `Hello ${user}!`;
 }
