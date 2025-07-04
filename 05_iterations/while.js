@@ -66,5 +66,5 @@ do{
 }while(score<=10);//condition in end
 //output = 11
 //As do-while loops check the condition at the end the 11 has print and then the condition is checked which turns to be false so the loop terminates.
-
+//Hence the do-while loops
 
